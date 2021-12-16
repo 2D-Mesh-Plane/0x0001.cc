@@ -1,0 +1,143 @@
+.font {
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #000000;
+}
+/*------NAV BAR----*/
+header{
+    background: rgba(30, 37, 40, 0.7);
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.title_ {
+    color: #fff;
+    float: left;
+    padding: 10px 0;
+    margin-left: 50px;
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    animation: loadTitle 1s none;
+
+}
+
+.title_:hover {
+    color: rgba(211, 211, 211, 0.96);
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li {
+
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 13px;
+    animation: loadComp 1s none;
+    transition: transform .2s;
+}
+
+
+nav li:hover {
+    transform: scale(1.18);
+}
+
+
+nav a {
+    color: #fff !important;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+}
+
+nav a:hover {
+    color: rgba(211, 211, 211, 0.96);
+    text-decoration: none;
+}
+
+@keyframes loadTitle {
+    0% {margin-left: 0px; opacity: 0}
+    100% {margin-left: 50px; opacity: 1}
+}
+
+@keyframes loadComp {
+    0% {margin-left: 0px; opacity: 0}
+    100% {margin-left: 70px; opacity: 1}
+}
+
+/*----------*/
+
+
+.background {
+    background-color: #000000;
+    background-size: auto auto;
+    animation: fadebackground 150s infinite;
+}
+
+@keyframes fadebackground {
+    0%  {background-image: url("backgrounds/lava.png")}
+    10% {background-image: url("backgrounds/blood.png")}
+    20% {background-image: url("backgrounds/bubblegum.png")}
+    30% {background-image: url("backgrounds/lazer.png")}
+    40% {background-image: url("backgrounds/lines.png")}
+    50% {background-image: url("backgrounds/lipstick.png")}
+    60% {background-image: url("backgrounds/pink.png")}
+    70% {background-image: url("backgrounds/purple.png")}
+    80% {background-image: url("backgrounds/water.png")}
+    90% {background-image: url("backgrounds/candyfloss.png")}
+    100% {background-image: url("backgrounds/lava.png")}
+}
+
+
+
+.bars {
+    width: 100%;
+    background-color: #dedede;
+    border-radius: 20px;
+
+}
+
+.java, .python, .cs, .kotlin{
+    height: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 15px;
+
+}
+
+
+.java {
+    width: 97%;
+    background-color: #f89820;
+}
+
+.python {
+    width: 70%;
+    background-color: #306998;
+}
+
+.cs {
+    width: 80%;
+    background-color: #800080;
+}
+
+.kotlin {
+    width: 65%;
+    background-color: #67C8FF;
+}

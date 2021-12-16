@@ -1,0 +1,8 @@
+org.madmeg.api
+org.madmeg.api.logger
+org.madmeg.api.obfuscator
+org.madmeg.api.obfuscator.tasks
+org.madmeg.api.obfuscator.tasks.elements
+org.madmeg.impl
+org.madmeg.impl.config
+org.madmeg.impl.tasks
