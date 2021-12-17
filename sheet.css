@@ -17,6 +17,12 @@ header::after {
     clear: both;
 }
 
+canvas {
+    display:block;
+    margin-left: 75px;
+    margin-right: 80px;
+}
+
 .title_ {
     color: #fff;
     float: left;
