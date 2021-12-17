@@ -134,7 +134,7 @@ nav a:hover {
 }
 
 .python {
-    width: 70%;
+    width: 50%;
     background-color: #306998;
 }
 
@@ -144,6 +144,6 @@ nav a:hover {
 }
 
 .kotlin {
-    width: 65%;
+    width: 70%;
     background-color: #67C8FF;
 }
