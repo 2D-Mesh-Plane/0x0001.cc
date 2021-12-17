@@ -7,7 +7,7 @@ var str = "Welcome to 0x0001";
 var fontStr = "bold 40pt Helvetica Neue, Helvetica, Arial, sans-serif";
 
 ctx.font = fontStr;
-ctx.textAlign = "center";
+//ctx.textAlign = "center";
 c.width = ctx.measureText(str).width + 80;
 c.height = 128; // Set to font size
 
