@@ -8,7 +8,7 @@ var fontStr = "bold 40pt Helvetica Neue, Helvetica, Arial, sans-serif";
 
 ctx.font = fontStr;
 //ctx.textAlign = "center";
-c.width = ctx.measureText(str).width + 80;
+c.width = ctx.measureText(str).width + 40;
 c.height = 128; // Set to font size
 
 var whitePixels = [];
