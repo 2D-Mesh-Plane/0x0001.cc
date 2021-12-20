@@ -157,4 +157,7 @@ nav a:hover {
 }
 #myCanvas {
     width: 85% !important;
+    position: relative !important;
+    left: 5% !important;
+    margin-bottom: 15% !important;
 }
