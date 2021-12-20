@@ -155,3 +155,6 @@ nav a:hover {
     width: 70%;
     background-color: #67C8FF;
 }
+#myCanvas {
+    width: 85% !important;
+}
