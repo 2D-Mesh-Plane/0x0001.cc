@@ -49,7 +49,6 @@ nav ul {
 }
 
 nav li {
-
     display: inline-block;
     margin-left: 70px;
     padding-top: 13px;
@@ -84,6 +83,47 @@ nav a:hover {
 @keyframes loadComp {
     0% {margin-left: 0px; opacity: 0}
     100% {margin-left: 70px; opacity: 1}
+}
+.toggle-btn {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-btn .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+@media (max-width: 950px) {
+    .toggle-btn {
+        display: flex;
+    }
+    .nav-links {
+        display: none;
+        width: 100%;
+    }
+    .nav-links li {
+        width: 100%;
+        flex-direction: column;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-links li {
+        text-align: center;
+    }
+    .nav-links.active {
+        display: flex;
+    }
 }
 
 /*----------*/

@@ -117,3 +117,10 @@ function coordsToI(x,y,w) {
 
 setInterval(loop,50);
 init();
+
+let toggleBtn = document.getElementsByClassName('toggle-btn')[0]
+let navLinks = document.getElementsByClassName('nav-links')[0]
+
+toggleBtn.addEventListener('click', () =>  {
+    navLinks.classList.toggle('active')
+})

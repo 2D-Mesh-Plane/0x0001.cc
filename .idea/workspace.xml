@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="707696df-ef67-4e6a-9243-dc6174b98daf" name="Changes" comment="[Addition] The logo should finally be centered">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/sheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/title.js" beforeDir="false" afterPath="$PROJECT_DIR$/title.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="22QHJ1vIUt1heHELhsqa8KTxYpb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="707696df-ef67-4e6a-9243-dc6174b98daf" name="Changes" comment="" />
+      <created>1639762815177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639762815177</updated>
+      <workItem from="1639762816357" duration="944000" />
+      <workItem from="1639763801434" duration="299000" />
+      <workItem from="1639933834111" duration="720000" />
+      <workItem from="1640026619192" duration="2859000" />
+      <workItem from="1640029580857" duration="2431000" />
+      <workItem from="1640113786896" duration="3706000" />
+    </task>
+    <task id="LOCAL-00001" summary="[Addition] The logo is now centered all the time.">
+      <created>1639763396784</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639763396784</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[Addition] Added a viewport so that the website looks better on mobile devices and the logo problem should be gone now.">
+      <created>1639933983067</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639933983067</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[Addition] Added a viewport so that the website looks better on mobile devices and the logo problem should be gone now.">
+      <created>1639934014414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639934014414</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[Addition] The logo should finally be centered">
+      <created>1640028601630</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640028601630</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[Addition] Logo once again">
+      <created>1640029661561</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640029661562</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[Addition] Logo once again">
+      <created>1640037095735</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640037095735</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Addition] The logo is now centered all the time." />
+    <MESSAGE value="[Addition] Added a viewport so that the website looks better on mobile devices and the logo problem should be gone now." />
+    <MESSAGE value="[Addition] The logo should finally be centered" />
+    <MESSAGE value="[Addition] Logo once again" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Addition] Logo once again" />
+  </component>
+</project>
