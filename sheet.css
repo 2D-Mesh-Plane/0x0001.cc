@@ -1,7 +1,6 @@
 .font {
     font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
 }
-
 /* Provide sufficient contrast against white background */
 a {
     color: #000000;
@@ -10,19 +9,16 @@ a {
 header{
     background: rgba(30, 37, 40, 0.7);
 }
-
 header::after {
     content: "";
     display: table;
     clear: both;
 }
-
 canvas {
-    display:block;
+    display: block;
     margin-left: 75px;
     margin-right: 80px;
 }
-
 .title_ {
     color: #fff;
     float: left;
@@ -33,21 +29,16 @@ canvas {
     text-decoration: none;
     text-transform: uppercase;
     animation: loadTitle 1s none;
-
 }
-
 .title_:hover {
     color: rgba(211, 211, 211, 0.96);
     text-decoration: none;
 }
-
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-
 }
-
 nav li {
     display: inline-block;
     margin-left: 70px;
@@ -55,13 +46,9 @@ nav li {
     animation: loadComp 1s none;
     transition: transform .2s;
 }
-
-
 nav li:hover {
     transform: scale(1.18);
 }
-
-
 nav a {
     color: #fff !important;
     text-decoration: none !important;
@@ -69,17 +56,14 @@ nav a {
     font-size: 18px;
     font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
 }
-
 nav a:hover {
     color: rgba(211, 211, 211, 0.96);
     text-decoration: none;
 }
-
 @keyframes loadTitle {
     0% {margin-left: 0px; opacity: 0}
     100% {margin-left: 50px; opacity: 1}
 }
-
 @keyframes loadComp {
     0% {margin-left: 0px; opacity: 0}
     100% {margin-left: 70px; opacity: 1}
@@ -101,8 +85,7 @@ nav a:hover {
     border-radius: 10px;
     margin-top: 5px;
 }
-
-@media (max-width: 950px) {
+@media (max-width: 950px) { /* Runs when the screen width is below 950px */
     .toggle-btn {
         display: flex;
     }
@@ -115,7 +98,7 @@ nav a:hover {
         flex-direction: column;
     }
     nav {
-        flex-direction: column;
+        /*flex-direction: column;*/
         align-items: flex-start;
     }
     .nav-links li {
@@ -123,18 +106,16 @@ nav a:hover {
     }
     .nav-links.active {
         display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
-
 /*----------*/
-
-
 .background {
     background-color: #000000;
     background-size: auto auto;
     animation: fadebackground 150s infinite;
 }
-
 @keyframes fadebackground {
     0%  {background-image: url("backgrounds/lava.png")}
     10% {background-image: url("backgrounds/blood.png")}
@@ -148,7 +129,6 @@ nav a:hover {
     90% {background-image: url("backgrounds/candyfloss.png")}
     100% {background-image: url("backgrounds/lava.png")}
 }
-
 #gradient
 {
     width: 100%;
@@ -156,16 +136,12 @@ nav a:hover {
     padding: 0px;
     margin: 0px;
 }
-
-
-
 .bars {
     width: 100%;
     background-color: #dedede;
     border-radius: 20px;
 
 }
-
 .java, .python, .cs, .kotlin{
     height: 30px;
     font-size: 20px;
@@ -174,23 +150,18 @@ nav a:hover {
     border-radius: 15px;
 
 }
-
-
 .java {
     width: 97%;
     background-color: #f89820;
 }
-
 .python {
     width: 50%;
     background-color: #306998;
 }
-
 .cs {
     width: 80%;
     background-color: #800080;
 }
-
 .kotlin {
     width: 70%;
     background-color: #67C8FF;
