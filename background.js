@@ -29,6 +29,7 @@ var gradientSpeed = 0.002;
 function updateGradient()
 {
 
+    // @ts-ignore
     if ( $===undefined ) return;
 
     var c0_0 = colors[colorIndices[0]];
@@ -48,6 +49,7 @@ function updateGradient()
     var color2 = "rgb("+r2+","+g2+","+b2+")";
 
 
+    // @ts-ignore
     $('#gradient').css({
         background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
         background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});

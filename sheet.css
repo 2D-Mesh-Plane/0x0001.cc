@@ -5,6 +5,9 @@
 a {
     color: #000000;
 }
+html {
+    scroll-behavior: smooth;
+}
 /*------NAV BAR----*/
 header{
     background: rgba(30, 37, 40, 0.7);
@@ -171,4 +174,17 @@ nav a:hover {
     position: relative !important;
     left: 5% !important;
     margin-bottom: 15% !important;
+}
+/*------SCROLL BAR----*/
+::-webkit-scrollbar {
+    width: 18px;
+    background-color: white;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #919090;
+    border-radius: 100vw;
+}
+::-webkit-scrollbar-button {
+    /*This has no styles because i want the buttons to be not visible
+    but still seen */
 }
