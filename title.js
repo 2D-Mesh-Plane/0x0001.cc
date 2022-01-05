@@ -124,3 +124,21 @@ let navLinks = document.getElementsByClassName('nav-links')[0]
 toggleBtn.addEventListener('click', () =>  {
     navLinks.classList.toggle('active')
 })
+
+let randomColour = Math.floor(Math.random() * 16777215).toString(16);
+
+document.getElementById("link-1").addEventListener("mouseOver", onmouseover);
+document.getElementById("link-1").addEventListener("mouseOut", onmouseout);
+
+document.getElementById("link-2").addEventListener("mouseOver", onmouseover);
+document.getElementById("link-2").addEventListener("mouseOut", onmouseout);
+
+function mouseOver() {
+
+    document.getElementById("link-1").style.color = "#" + randomColour;
+    document.getElementById("link-2").style.color = "#" + randomColour;
+}
+function mouseOut() {
+    document.getElementById("link-1").style.color = "#" + randomColour;
+    document.getElementById("link-2").style.color = "#" + randomColour;
+}

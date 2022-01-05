@@ -113,6 +113,11 @@ nav a:hover {
         align-items: center;
     }
 }
+@media (max-width: 480px) {
+    .title_ {
+        font-size: 20px;
+    }
+}
 /*----------*/
 .background {
     background-color: #000000;
@@ -187,4 +192,10 @@ nav a:hover {
 ::-webkit-scrollbar-button {
     /*This has no styles because i want the buttons to be not visible
     but still seen */
+}
+.link-1 {
+    text-decoration: none !important;
+}
+.link-2 {
+    text-decoration: none !important;
 }

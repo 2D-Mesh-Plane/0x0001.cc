@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="707696df-ef67-4e6a-9243-dc6174b98daf" name="Changes" comment="[Addition] Tweaked the drop-down menu a little, the three links now appear in a column and also they're all centered now.">
+    <list default="true" id="707696df-ef67-4e6a-9243-dc6174b98daf" name="Changes" comment="[Addition] Changed the scrollbar (a way for me to experiment aswell)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/background.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/sheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/title.js" beforeDir="false" afterPath="$PROJECT_DIR$/title.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,12 @@
       <workItem from="1640026619192" duration="2859000" />
       <workItem from="1640029580857" duration="2431000" />
       <workItem from="1640113786896" duration="6358000" />
-      <workItem from="1640181967910" duration="4254000" />
+      <workItem from="1640181967910" duration="4354000" />
+      <workItem from="1640335931401" duration="530000" />
+      <workItem from="1640428496026" duration="1216000" />
+      <workItem from="1640816460754" duration="283000" />
+      <workItem from="1641326829397" duration="1586000" />
+      <workItem from="1641379014679" duration="2615000" />
     </task>
     <task id="LOCAL-00001" summary="[Addition] The logo is now centered all the time.">
       <created>1639763396784</created>
@@ -103,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640122228721</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[Addition] Changed the scrollbar (a way for me to experiment aswell)">
+      <created>1640186348138</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1640186348138</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +140,7 @@
     <MESSAGE value="[Addition] Logo once again" />
     <MESSAGE value="[Addition] A navbar which adapts to a users screen width. When a certain screen width is below the min var then it will change to a drop-down menu." />
     <MESSAGE value="[Addition] Tweaked the drop-down menu a little, the three links now appear in a column and also they're all centered now." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Addition] Tweaked the drop-down menu a little, the three links now appear in a column and also they're all centered now." />
+    <MESSAGE value="[Addition] Changed the scrollbar (a way for me to experiment aswell)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Addition] Changed the scrollbar (a way for me to experiment aswell)" />
   </component>
 </project>
