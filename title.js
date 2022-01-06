@@ -134,7 +134,6 @@ document.getElementById("link-2").addEventListener("mouseOver", onmouseover);
 document.getElementById("link-2").addEventListener("mouseOut", onmouseout);
 
 function mouseOver() {
-
     document.getElementById("link-1").style.color = "#" + randomColour;
     document.getElementById("link-2").style.color = "#" + randomColour;
 }
@@ -142,3 +141,9 @@ function mouseOut() {
     document.getElementById("link-1").style.color = "#" + randomColour;
     document.getElementById("link-2").style.color = "#" + randomColour;
 }
+
+/*
+while () {
+            //Return to this, you're trying to make the colours change everytime somebody hovers.
+}
+ */
