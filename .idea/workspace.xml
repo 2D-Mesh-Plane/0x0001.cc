@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="707696df-ef67-4e6a-9243-dc6174b98daf" name="Changes" comment="[Addition] Tweaked the drop-down menu a little, the three links now appear in a column and also they're all centered now.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/title.js" beforeDir="false" afterPath="$PROJECT_DIR$/title.js" afterDir="false" />
-    </list>
+    <list default="true" id="707696df-ef67-4e6a-9243-dc6174b98daf" name="Changes" comment="[Addition] The colours now change when you hover over them." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640122228721</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[Addition] The colours now change when you hover over them.">
+      <created>1642516271305</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642516271305</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +131,7 @@
     <MESSAGE value="[Addition] Logo once again" />
     <MESSAGE value="[Addition] A navbar which adapts to a users screen width. When a certain screen width is below the min var then it will change to a drop-down menu." />
     <MESSAGE value="[Addition] Tweaked the drop-down menu a little, the three links now appear in a column and also they're all centered now." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Addition] Tweaked the drop-down menu a little, the three links now appear in a column and also they're all centered now." />
+    <MESSAGE value="[Addition] The colours now change when you hover over them." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Addition] The colours now change when you hover over them." />
   </component>
 </project>
