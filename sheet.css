@@ -199,3 +199,6 @@ nav a:hover {
 .link-2 {
     text-decoration: none !important;
 }
+.card {
+    filter: drop-shadow(.25rem .25rem .5rem);
+}

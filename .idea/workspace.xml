@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="707696df-ef67-4e6a-9243-dc6174b98daf" name="Changes" comment="[Addition] The colours now change when you hover over them." />
+    <list default="true" id="707696df-ef67-4e6a-9243-dc6174b98daf" name="Changes" comment="[Addition] The colours now change when you hover over them.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/sheet.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -42,6 +46,8 @@
       <workItem from="1640029580857" duration="2431000" />
       <workItem from="1640113786896" duration="6358000" />
       <workItem from="1640181967910" duration="4254000" />
+      <workItem from="1643102563990" duration="2235000" />
+      <workItem from="1643117329582" duration="2573000" />
     </task>
     <task id="LOCAL-00001" summary="[Addition] The logo is now centered all the time.">
       <created>1639763396784</created>
@@ -106,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642516271305</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[Addition] The colours now change when you hover over them.">
+      <created>1642516364695</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642516364695</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
