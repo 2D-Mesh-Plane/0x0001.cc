@@ -7,7 +7,6 @@
     <list default="true" id="707696df-ef67-4e6a-9243-dc6174b98daf" name="Changes" comment="Want to add a new feature to the random colour on the text.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/sheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/title.js" beforeDir="false" afterPath="$PROJECT_DIR$/title.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +60,7 @@
       <workItem from="1641400590951" duration="1195000" />
       <workItem from="1641501620427" duration="323000" />
       <workItem from="1643385274596" duration="893000" />
+      <workItem from="1643622691787" duration="2074000" />
     </task>
     <task id="LOCAL-00001" summary="[Addition] The logo is now centered all the time.">
       <created>1639763396784</created>
